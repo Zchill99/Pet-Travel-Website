@@ -1,0 +1,38 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+
+.map-container {
+  position: relative;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.image1 {
+  width: 100%;
+  display: block;
+}
+
+.image2 {
+  position: absolute;
+  width: 100px;
+  cursor: pointer;
+  transform: translate(-50%, -50%); 
+}
+
+.image2:hover {
+  transform: translate(-50%, -50%) scale(1.2);
+}

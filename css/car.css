@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(47, 194, 99);
+  background-color: rgb(39, 190, 190);
 }
 
 h1 {
@@ -27,6 +27,6 @@ h2 {
 
 .body {
   position: relative;
-  width: 800px;
+  width: 1200px;
   margin: 0 auto;
 }

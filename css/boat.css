@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(61, 108, 210);
+}
+
+h1 {
+  color: black;
+  font-size: 60px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  text-wrap: wrap;
+  font-size: 45px;
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+
+.imageboat {
+  position: left;
+  float: left;
+  margin-right: 1px;
+  width: 60%;
+}
+
+.body {
+  position: relative;
+  width: 950px;
+  margin: 0 auto;
+}

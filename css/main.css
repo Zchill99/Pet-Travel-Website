@@ -72,6 +72,17 @@ h2 {
   transform: translate(-290%, -180%) scale(1.3);
 }
 
+.imageboaticon {
+  position: absolute;
+  width: 150px;
+  cursor: pointer;
+  transform: translate(100%, 50%); 
+}
+
+.imageboaticon:hover {
+  transform: translate(100%, 50%) scale(1.3);
+}
+
 .content {
   position: relative;
   width: 950px;

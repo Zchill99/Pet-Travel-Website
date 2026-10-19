@@ -13,7 +13,7 @@ h1 {
   color: black;
   font-size: 60px;
   text-align: center;
-  font-family: Arial, sans-serif;
+  font-family: "Comic Sans MS", "Comic Sans";
 }
 
 h2 {
@@ -23,7 +23,7 @@ h2 {
   text-wrap: wrap;
   font-size: 45px;
   position: relative;
-  font-family: Arial, sans-serif;
+  font-family: "Comic Sans MS", "Comic Sans";
 }
 
 .imagecar {
@@ -42,7 +42,7 @@ h2 {
 
 ul {
   transform: translate(0%, 5%);
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Comic Sans MS", "Comic Sans";
   font-size: 40px;
   line-height: 1.5;
   margin-bottom: 20px;

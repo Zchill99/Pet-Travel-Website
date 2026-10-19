@@ -2,6 +2,13 @@ body {
   background-color: rgb(39, 190, 190);
 }
 
+.partial-bg-gradient {
+  position: relative;
+  margin: 0 auto;
+  width: 1000px; height: 3000px;
+  background: linear-gradient(to bottom, #fcdca3 50%, transparent 50%);
+}
+ 
 h1 {
   color: black;
   font-size: 60px;
@@ -10,6 +17,7 @@ h1 {
 }
 
 h2 {
+  transform: translate(0%, 5%);
   color: black;
   text-align: center;
   text-wrap: wrap;
@@ -19,14 +27,23 @@ h2 {
 }
 
 .imagecar {
+  transform: translate(0%, 5%);
   float: left;
   margin-right: 1px;
   width: 40%;
 
 }
 
-.body {
+.description {
   position: relative;
   width: 950px;
   margin: 0 auto;
+}
+
+ul {
+  transform: translate(0%, 5%);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  line-height: 1.5;
+  margin-bottom: 20px;
 }

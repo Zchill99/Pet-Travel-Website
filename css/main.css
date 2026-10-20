@@ -2,10 +2,6 @@ body {
   background-image: linear-gradient(147deg, hsl(208, 100%, 71%) 0%, #52a4f5 74%);
 }
 
-@font-face {
-  font-family: "Comic Sans MS", "Comic Sans";
-  src: url("comic-sans-ms/comici.ttf");
-}
 
 .partial-bg-gradient {
 position: relative;
@@ -15,21 +11,21 @@ background-image: linear-gradient(147deg, #f0c956 0%, #fff6e8 74%);
 }
 
 h1 {
+  font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive;
   color: black;
   text-align: center;
   font-size: 60px;
-  font-family: "Comic Sans MS", "Comic Sans";
 }
 
 h2 {
+  font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive;
   color: black;
   text-align: center;
   font-size: 55px;
-  font-family: "Comic Sans MS", "Comic Sans";
 }
 
 p {
-  font-family: "Comic Sans MS", "Comic Sans";
+  font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive;
   font-size: 55px;
   line-height: 1.5;
   margin-bottom: 20px;

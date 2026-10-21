@@ -42,7 +42,8 @@ p {
 
 /*Map Image*/
 .image1 {
-  width: 100%;
+  border: 10px solid black;
+  width: 99%;
   display: block;
 }
 
@@ -112,4 +113,12 @@ p {
   position: relative;
   width: 900px;
   margin: 0 auto;
+}
+
+span {
+  font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive;
+  font-style: italic;
+  font-size: 60px;
+  line-height: 1.5;
+  margin-bottom: 20px;
 }

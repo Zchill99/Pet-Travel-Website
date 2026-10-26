@@ -1,32 +1,83 @@
 body {
-  background-color: rgb(61, 108, 210);
+  background-image: linear-gradient(147deg, #0065a4 0%, #6938fd 74%);
 }
 
+.partial-bg-gradient {
+  border-radius: 20px;
+  position: relative;
+  margin: 0 auto;
+  width: 950px; height: 8900px;
+  background-image: linear-gradient(147deg, #f0c956 0%, #fff6e8 74%);
+}
+ 
 h1 {
+  background-image: linear-gradient(147deg, #f0c956 0%, #fff6e8 74%);
+  border-radius: 20px;
+  position: relative;
+  margin: 0 auto;
+  width: 650px;
   color: black;
   font-size: 60px;
   text-align: center;
-  font-family: Arial, sans-serif;
+  font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive;
 }
 
 h2 {
+  transform: translate(0%, 5%);
   color: black;
   text-align: center;
   text-wrap: wrap;
   font-size: 45px;
   position: relative;
-  font-family: Arial, sans-serif;
+  font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive;
 }
 
 .imageboat {
-  position: left;
+  transform: translate(0%, 5%);
   float: left;
   margin-right: 1px;
-  width: 60%;
+  width: 40%;
+
 }
 
-.body {
+.imageboatmain {
+  border-radius: 20px;
+  transform: translate(0%, 5%);
+  float: right;
+  margin-left: 1px;
+  width: 40%;
+
+}
+
+.imageboatmainleft {
+  border-radius: 20px;
+  transform: translate(0%, 5%);
+  float: left;
+  margin-right: 1px;
+  width: 40%;
+
+}
+
+.description {
   position: relative;
-  width: 950px;
+  width: 900px;
   margin: 0 auto;
+}
+
+.maintext {
+  position: relative;
+  transform: translate(0%, 1%);
+  font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive;
+  font-size: 40px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.bottomtext {
+  transform: translate(0%, 3%);
+  position: relative;
+  font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive;
+  font-size: 40px;
+  line-height: 1.5;
+  padding-top: 60px;
 }

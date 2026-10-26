@@ -7,7 +7,7 @@ body {
   position: relative;
   margin: 0 auto;
   width: 950px; height: 6000px;
-  background-image: linear-gradient(147deg, #f0c956 0%, #fff6e8 74%);
+  background-image: linear-gradient(147deg, #f0c956 0%, #f0c956 74%);
 }
  
 h1 {

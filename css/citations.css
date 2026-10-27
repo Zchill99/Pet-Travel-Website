@@ -1,0 +1,47 @@
+body {
+  background-image: linear-gradient(147deg, #54bd58 0%, #10820e 74%);
+}
+
+.partial-bg-gradient {
+  border-radius: 20px;
+  position: relative;
+  margin: 0 auto;
+  width: 950px; height: 7600px;
+  background-image: linear-gradient(147deg, #f0c956 0%, #fff6e8 74%);
+}
+ 
+h1 {
+  background-image: linear-gradient(147deg, #f0c956 0%, #fff6e8 74%);
+  border-radius: 20px;
+  position: relative;
+  margin: 0 auto;
+  width: 650px;
+  color: black;
+  font-size: 60px;
+  text-align: center;
+  font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive;
+}
+
+.description {
+  position: relative;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.maintext {
+  position: relative;
+  transform: translate(0%, 1%);
+  font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive;
+  font-size: 40px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.bottomtext {
+  transform: translate(0%, 3%);
+  position: relative;
+  font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive;
+  font-size: 40px;
+  line-height: 1.5;
+  padding-top: 60px;
+}
